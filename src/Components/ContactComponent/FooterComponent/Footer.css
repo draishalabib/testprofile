@@ -1,0 +1,59 @@
+footer {
+  padding-top: 20px;
+  background-color: black;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+}
+.icon-link {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+footer a,
+footer a:visited {
+  color: #7e7171;
+}
+footer a:hover,
+footer a:focus {
+  color: #fff;
+}
+
+/* copyright */
+footer .copyright {
+  margin: 1rem;
+  padding: 0;
+  color: #7e7171;
+}
+footer .copyright span {
+  display: inline-block;
+  margin: 1rem;
+  padding: 10px;
+  line-height: 25px;
+}
+.ie footer .copyright span {
+  display: inline;
+}
+footer .copyright span:before {
+  padding: 0 15px;
+  color: #113132;
+}
+footer .copyright li:first-child:before {
+  display: none;
+}
+@media screen and (max-width: 640px) {
+  .icon-link {
+    margin-left: 10px;
+    font-size: 10px;
+  }
+
+  footer .copyright {
+    margin: 0.1rem;
+  }
+  footer .copyright span {
+    display: inline;
+    margin: 0.1rem;
+    padding: 3px;
+    line-height: 15px;
+  }
+}

@@ -1,0 +1,96 @@
+#project {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(70, 66, 66, 0.35);
+  text-align: center;
+  justify-content: center;
+  border-bottom: solid 2px rgb(174, 159, 159);
+  box-shadow: 8px rgb(175, 163, 163);
+}
+.searchinput input {
+  width: 40vw;
+  padding: 0.4vw;
+  outline: none;
+  background-color: aliceblue;
+  border-radius: 50px;
+}
+
+.searchinput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4vw;
+}
+#icon {
+  font-size: 20px;
+  color: blue;
+  margin-left: 1vw;
+}
+
+#project h1 {
+  font-family: "opensans-bold", sans-serif;
+  font-size: 2rem;
+  padding-top: 2vw;
+}
+
+#project span {
+  font-family: "opensans-bold", sans-serif;
+  font-size: 1rem;
+}
+.tamplate-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3vw auto;
+  padding-top: 1vw;
+}
+
+.tamplate-container .tamplate {
+  margin: 1.3vw;
+  padding: 0 0.6vw;
+  transition: transform 0.3s;
+}
+.tamplate:hover {
+  transform: scale(1.15);
+}
+.project-tamplate {
+  background-color: rgb(16, 15, 15);
+  margin: 1vw;
+  border-radius: 20px;
+}
+.tamplate-container .tamplate img {
+  height: 15vw;
+  width: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.tamplate-buttom {
+  align-items: center;
+  display: inline-flex;
+}
+#tamplate-text {
+  font: 10px "opensans-bold", sans-serif;
+  color: white;
+  margin-right: 100px;
+  margin-top: -30px;
+}
+.iconlinks {
+  color: blueviolet;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: -5px;
+  margin-left: 200px;
+}
+.iconlinks:hover {
+  transform: scale(1.15);
+}
+@media screen and (max-width: 640px) {
+  .project-tamplate {
+    margin: 1vw;
+    border-radius: 20px;
+  }
+  .tamplate-container .tamplate img {
+    height: 5vw;
+    width: 3vw;
+  }
+}
